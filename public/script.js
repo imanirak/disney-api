@@ -9,7 +9,7 @@ searchBtn.addEventListener("click", () =>{
 //   console.log("btn works" + search)
 
   const promise = $.ajax({
-    url: `https://api.disneyapi.dev/characters`,
+    url: `https://api.disneyapi.dev/characters/`,
   });
   
   promise.then(
@@ -18,7 +18,7 @@ searchBtn.addEventListener("click", () =>{
 
    //filter through api
  for(let i=0; i< data.length;i++){
-   
+   console.log(data[i])
     //find matching name value
 if(search === data[i].name){
 

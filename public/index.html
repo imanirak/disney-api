@@ -21,26 +21,32 @@
 <script defer src="script.js" ></script>
     </head>
     <body>
+
+<div class="card">
+  <H1>Search for a Disney Character</H1>
        
-        <div class="container">
-          <div class="search">
-            <H1>Search for a Disney Character</H1>
+  <div class="container">
 
-            <input type="text" id='search' placeholder="enter character name" value="character name">
-                    <button type="button" id="charSearchBtn">SEARCH</button>
+    <!-- side left-->
+    <div class="search">
 
-           
-          </div>
-        <div class="img">
-          
-            <h2  id="name">Character Name</h2>
-            <img  id ="character" src="questionmark.png" alt="disney character" width="500" height="600">
-          <h3> Featured Movies:<h3  id="details">details</h3></h3>  
+      <input type="text" id='search' placeholder="enter character name" value="character name">
+              <button type="button" id="charSearchBtn">find</button>
+              <h3> Character features in:<h3  id="details">details</h3></h3>  
+
+    </div>
+
+    <!-- side right-->
+    <div class="img">
     
-        </div>
-                   
-                
+      <h2  id="name">Character Name</h2>
+      <img  id ="character" src="https://i.ibb.co/9bPwWHB/questionmark.png" alt="disney character" width="400" height="500">
+    
+  </div>
+          
+  </div>
 
-        </div>
+</div>
+      
     </body>
 </html>
