@@ -44,31 +44,3 @@ console.log(data[i].name.toLowerCase())
 
 
 
-
-
-
-
-//   const promise = $.ajax({
-//     url: `https://api.disneyapi.dev/characters`,
-//   });
-  
-//   promise.then(
-//     (disneyData) => {
-//       const data = disneyData.data;
-   
-
-//  for(let i=0; i< data.length;i++){
-
-//  const disneyImage = data[i].imageUrl;
-//     document.getElementById("character").src = disneyImage;
-//    console.log(data[i])
-//     $('#name').html(data[i].name);
-//    $('#details').html(data[i].tvShows);
-
-//  } 
-//     },
-//     (error) => {
-//       console.log("bad request: ", error);
-//     }
-   
-//   );
