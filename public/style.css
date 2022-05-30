@@ -1,5 +1,9 @@
 body{
     background-color:#c1e0f7;
+    background: url("../disneybg.jpg") no-repeat center center fixed;
+    font-family:Helvetica;
+    color:white;
+
 }
 
 .container {
@@ -8,8 +12,10 @@ body{
     flex-direction:row-reverse;
    
 }
+
+
 input, button{
-    margin:4px;
+    margin:4px
 }
 
 h1{
@@ -31,4 +37,22 @@ img {
     justify-content:center;
     align-items: center;
     border: 2px solid #a4def9;
+   
+}
+
+.search {
+    text-align:center;
+}
+
+#charSearchBtn, #search {
+    padding:5px 5px;
+}
+#search {
+    width:60%;
+}
+
+#charSearchBtn {
+    background-color: #a4def9;
+    border-radius:10px;
+    border:none;
 }
